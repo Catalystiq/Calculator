@@ -20,7 +20,7 @@ public class Calculator{
       num1 = scan.nextFloat();            
       System.out.println("type in the second number: ");
       num2 = scan.nextFloat();  
-      System.out.println("type in the an operator: ");
+      System.out.println("type in the an operator (+, -, *, /): ");
       op = scan.next().toLowerCase();
       
       cal.calc();    
